@@ -20,7 +20,6 @@ jobs:
     - name: Install dependencies
       run: |
         pip install -r requirements.txt
-    
     - name: Run bot
       env:
         API: 8346955526:AAHmzz56YqnlCU_IwWk6fNeW6ih_mH65QPw
